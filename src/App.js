@@ -8,6 +8,7 @@ import Menubar from "./Components/MenuBar/Menubar";
 import Dashbar from "./Components/Dashbar/Dashbar";
 import Sign from "./Components/Sign/Sign";
 import SignUp from "./Components/SignUp/SignUp";
+import EntryProducts from "./Components/EnteryProducts/EntryProducts";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="dashbar" element={<Dashbar/>}/>
           <Route path="sign" element={<Sign/>}/>
           <Route path="signUp" element={<SignUp/>}/>
+          <Route path="etry" element={<EntryProducts/>}/>
         </Routes>
       </BrowserRouter>
     </div>
