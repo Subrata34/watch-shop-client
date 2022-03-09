@@ -6,6 +6,8 @@ import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import Menubar from "./Components/MenuBar/Menubar";
 import Dashbar from "./Components/Dashbar/Dashbar";
+import Sign from "./Components/Sign/Sign";
+import SignUp from "./Components/SignUp/SignUp";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="footer" element={<Footer/>}/>
           <Route path="menubar" element={<Menubar/>}/>
           <Route path="dashbar" element={<Dashbar/>}/>
+          <Route path="sign" element={<Sign/>}/>
+          <Route path="signUp" element={<SignUp/>}/>
         </Routes>
       </BrowserRouter>
     </div>

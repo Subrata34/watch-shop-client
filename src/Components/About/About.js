@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Menubar from "../MenuBar/Menubar";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div>
+      <Menubar></Menubar>
+      <div>About</div>
+    </div>
+  );
+};
 
-export default About
+export default About;

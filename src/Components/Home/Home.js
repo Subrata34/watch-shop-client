@@ -1,8 +1,12 @@
 import React from 'react'
+import Menubar from '../MenuBar/Menubar'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Menubar></Menubar>
+      Home
+      </div>
   )
 }
 

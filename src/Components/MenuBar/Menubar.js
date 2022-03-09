@@ -1,22 +1,32 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Menubar = () => {
   return (
-    <div>
+    <div style={{display:"flex"}}>
       <div>
-          <h1>WAlMART Shop </h1>
+        <h1>WAlMART Shop </h1>
       </div>
       <div>
-           <ul>
-             <Link to="/home"><li>Home</li></Link>
-             <Link to="/about"><li>About</li></Link>
-           <Link to="/menubar"></Link>  <li>Service Center </li>
-             <li>Sign In</li>
-           </ul>
+        <ul style={{ display: "flex", margin: "20px" }}>
+          <Link to="/home">
+            <li style={{ margin: "20px", listStyle: "none" }}>Home</li>
+          </Link>
+          <Link to="/about">
+            <li style={{ margin: "20px", listStyle: "none" }}>About</li>
+          </Link>
+          <Link to="/menubar">
+            <li style={{ margin: "20px", listStyle: "none" }}>
+              Service Center{" "}
+            </li>
+          </Link>
+          <Link to="sign">
+            <li style={{ margin: "20px", listStyle: "none" }}>Sign In</li>
+          </Link>
+        </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Menubar
+export default Menubar;
