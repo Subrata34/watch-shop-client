@@ -23,7 +23,7 @@ function App() {
           <Route path="dashbar" element={<Dashbar/>}/>
           <Route path="sign" element={<Sign/>}/>
           <Route path="signUp" element={<SignUp/>}/>
-          <Route path="etry" element={<EntryProducts/>}/>
+          <Route path="entry" element={<EntryProducts/>}/>
         </Routes>
       </BrowserRouter>
     </div>
