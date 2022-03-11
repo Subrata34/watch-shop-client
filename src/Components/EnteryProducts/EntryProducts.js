@@ -18,7 +18,7 @@ const EntryProducts = () => {
     formData.append('price', price);
     formData.append('discrption', discription);
     formData.append('image', image);
-    fetch("http://localhost:5000/products", {
+    fetch(" https://immense-woodland-42379.herokuapp.com/products", {
       method: "POST",
       body: formData,
     })
