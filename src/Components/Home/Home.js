@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div>
       <Menubar></Menubar>
-      Home
+      <div>
+        this is home in this site 
+      </div>
       </div>
   )
 }
