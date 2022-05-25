@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import Menubar from '../MenuBar/Menubar'
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <div>
         this is home in this site 
       </div>
+      <Footer></Footer>
       </div>
   )
 }
